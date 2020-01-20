@@ -1,0 +1,17 @@
+{
+	"auth": {
+		"textfromimaged2d3ad30": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"predictions": {
+		"identifyText6d7bda0d": {
+			"providerPlugin": "awscloudformation",
+			"service": "RekognitionAndTextract",
+			"dependsOn": [],
+			"identifyType": "identifyText"
+		}
+	}
+}
